@@ -29,6 +29,7 @@ A, X: Original Graph의 인접행렬과 노드의 특징행렬
 p*: prompt token vector 행렬
 
 ![Untitled](/assets/images/prompt-tuning/Untitled.png)
+from All in one(23'KDD)
 
 ### Proof
 
