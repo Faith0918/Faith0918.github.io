@@ -11,7 +11,9 @@ paper link : <https://arxiv.org/pdf/2209.15240.pdf>
 ### 논문을 읽게 된 계기
 
 All in one: Multi-task prompting for graph neural network (KDD’23) 에서 Graph prompt 학습을 위해 사용하는 수식을 이해하고자 읽음
+
 ---
+
 ### Main Point
 어떤 pre-trained 모델에도 적용 가능한 universal prompt 기반 튜닝 방법인 "Graph Prompt Feature"를 제안한다.
 
