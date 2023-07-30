@@ -28,17 +28,17 @@ A, X: Original Graph의 인접행렬과 노드의 특징행렬
 
 p*: prompt token vector 행렬
 
-![Untitled](/assets/images/prompt-tuning/Universal%20Prompt%20Tuning%20for%20Graph%20Neural%20Network%20c4d03ea0aa0b4fcf92a1abeef14921c8/Untitled.png)
+![Untitled](/assets/images/prompt-tuning/Untitled.png)
 
 ### Proof
 
 pre-trained GNN 모델에 node feature, adjacency matrix, prompt token feature을 입력으로 넣어서 얻은 embedding과 어떤 prompted graph (modified input graph)를 입력으로 넣어서 얻은 embedding이 같도록 하는 graph prompt feature $\hat{p}$가 존재한다고 가정한다.
 
-![Untitled](/assets/images/prompt-tuning/Universal%20Prompt%20Tuning%20for%20Graph%20Neural%20Network%20c4d03ea0aa0b4fcf92a1abeef14921c8/Untitled%201.png)
+![Untitled](/assets/images/prompt-tuning/Untitled%201.png)
 
 이 때 node level로 hidden layer를 얻는 식을 작성하면 다음과 같다.
 
-![Untitled](/assets/images/prompt-tuning/Universal%20Prompt%20Tuning%20for%20Graph%20Neural%20Network%20c4d03ea0aa0b4fcf92a1abeef14921c8/Untitled%202.png)
+![Untitled](/assets/images/prompt-tuning/Untitled%202.png)
 
 W: 선형변환행렬
 
@@ -49,4 +49,4 @@ We define the graph level transformation g : G → G, which satisfies $ (\hat{A}
 Proposition 1. Given a pre-trained GNN model f, an input graph G : (A, X), for any graph-level
 transformation g : G → G, there exists a GPF extra feature vector $ \hat{p} $that satisfies:
 
-![Untitled](/assets/images/prompt-tuning/Universal%20Prompt%20Tuning%20for%20Graph%20Neural%20Network%20c4d03ea0aa0b4fcf92a1abeef14921c8/Untitled%203.png)
+![Untitled](/assets/images/prompt-tuning/Untitled%203.png)
