@@ -5,7 +5,7 @@ title: "[논문 리뷰] Self-supervised Graph Learning for Recommendation (SIGIR
 
 ### 논문을 읽게 된 계기
 
-Supervised learning을 위한 labeled data는 항상 부족하며 여기에 더해 모델 성능은 크게 발전하여 overfitting의 위험이 존재한다. (모델의 capacitance가 커질수록 학습 데이터 (labeled data)가 많이 필요하다. 그렇지 않으면 overfitting이 일어난다.) 이를 해결하기 위한 self-supervised learning 기법 중 하나인 contrastive learning을 GCN에 적용한 연구를 리뷰하게 되었다!
+Supervised learning을 위한 labeled data는 항상 부족하며 여기에 더해 모델 성능은 크게 발전하여 overfitting의 위험이 존재한다. (모델 capacity가 커질수록 학습 데이터 (labeled data)가 많이 필요하다. 그렇지 않으면 overfitting이 일어난다.) 이를 해결하기 위한 self-supervised learning 기법 중 하나인 contrastive learning을 GCN에 적용한 연구를 리뷰하게 되었다!
 
 ## Reviewed Papers
 
