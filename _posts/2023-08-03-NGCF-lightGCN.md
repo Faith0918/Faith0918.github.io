@@ -3,8 +3,6 @@ layout: single
 title: "[논문 리뷰] NGCF (SIGIR’19) & LightGCN (SIGIR’20)"
 ---
 
-### Neural Graph Collaborative Filtering (SIGIR’19) & LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation (SIGIR’20)
-
 ### 논문을 읽게 된 계기
 
 GCN을 처음 협업 필터링에 사용한 연구 (NGCF)와 이를 단순하게 발전시킨 연구 (LightGCN)를 리뷰하게 되었다!
