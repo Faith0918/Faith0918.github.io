@@ -75,4 +75,4 @@ GCN을 처음 협업 필터링에 사용한 연구 (NGCF)와 이를 단순하게
 - 추천시스템에서는 선형변환 없는 모델 성능이 우수한 경향을 보인다.
     - EASE (WWW’19, Netflix): 은닉층이 없는 오토인코더 기반 선형 모델
 
-![Untitled](NGCF,/assets/images/ngcf_lightgcn/Untitled%208.png)
+![Untitled](/assets/images/ngcf_lightgcn/Untitled%208.png)
